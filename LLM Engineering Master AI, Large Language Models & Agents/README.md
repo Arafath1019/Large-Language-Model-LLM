@@ -42,3 +42,15 @@ Creating a full powered Data Science Environment:
 - Step 3: Create an OpenAI key
 - Step 4: Create the .env file
 - Step 5: Activate environment and run Jupyter Lab
+
+### Mac Setup Guide Jupyter Lab and Conda for LLM Projects
+
+- Ed-Donner LLM Engineering Github Repo: https://github.com/ed-donner/llm_engineering
+
+Steps:
+
+1. Clone or Download the repo: https://github.com/ed-donner/llm_engineering
+2. Download & Install Anaconda for mac: https://www.anaconda.com/docs/getting-started/anaconda/install
+3. To download all the necessary dependencies and environment setup, Navigate to llm_engineering folder using terminal and run the command: `conda env create -f environment.yml`
+4. To activate the environment, run: `conda activate llms`
+5. To launch data science environment, Jupyter lab run: `jupyter lab`
